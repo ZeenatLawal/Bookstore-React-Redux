@@ -8,7 +8,7 @@
 
 ## Live demo
 
-[Bookstore](https://zeenatlawal.github.io/Bookstore-React-Redux/)
+TBA
 
 ## Getting Started
 
@@ -21,7 +21,6 @@
 - Create a branch to work on
 - Run `npm install`
 - Run `npm start` to launch the server.
-- Run `npm run test` to run the test cases.
 
 ## Author
 
