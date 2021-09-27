@@ -1,12 +1,28 @@
 import './App.css';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import Navbar from './components/Navbar';
+import Categories from './components/Categories';
+import BooksList from './components/BooksList';
+import InputBook from './components/InputBook';
+import NotMatch from './components/NotMatch';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <h1>Bookstore</h1>
-      </header>
-    </div>
+    <Router>
+      <Navbar />
+      <Switch>
+        <Route exact path="/">
+          <BooksList />
+          <InputBook />
+        </Route>
+        <Route path="/categories">
+          <Categories />
+        </Route>
+        <Route path="*">
+          <NotMatch />
+        </Route>
+      </Switch>
+    </Router>
   );
 }
 
