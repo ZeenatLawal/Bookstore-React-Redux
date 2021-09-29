@@ -29,7 +29,14 @@ export const removeBook = (book) => async (dispatch) => {
 };
 
 export const getAllBooks = () => async (dispatch) => {
-  const books = await getBooks();
+  const entries = await getBooks();
+  const books = Object.entries(entries).map(([key, value]) => {
+    const [bookEntries] = value;
+    return {
+      item_id: key,
+      ...bookEntries,
+    };
+  });
 
   if (books) {
     dispatch({
@@ -46,7 +53,7 @@ const reducer = (state = initialState, action) => {
     case REMOVE_BOOK:
       return state.filter((book) => book.item_id !== action.payload.item_id);
     case GET_BOOKS:
-      return [...state, action.payload.books];
+      return [...state, ...action.payload];
     default:
       return state;
   }
