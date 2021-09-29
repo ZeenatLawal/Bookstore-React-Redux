@@ -2,6 +2,7 @@ import './App.css';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Categories from './components/Categories';
+import InputBook from './components/InputBook';
 import BooksList from './components/BooksList';
 import NotMatch from './components/NotMatch';
 
@@ -12,6 +13,7 @@ function App() {
       <Switch>
         <Route exact path="/">
           <BooksList />
+          <InputBook />
         </Route>
         <Route path="/categories">
           <Categories />
