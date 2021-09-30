@@ -1,5 +1,5 @@
 # Bookstore-React-Redux
-> A basic website that allows you to display a list of books, add a book and remove a selected book.
+> A basic website that allows you to display a list of books, add a book and remove a selected book, using the Bookstore API.
 
 
 ![screenshot](./bookstore.png)
