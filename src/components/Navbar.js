@@ -1,7 +1,7 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import { MdAccountCircle } from 'react-icons/md';
-import './Navbar.css';
+import '../styles/Navbar.css';
 
 const Navbar = () => (
   <div className="nav-container flex">
