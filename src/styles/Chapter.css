@@ -1,0 +1,29 @@
+.chap {
+  font-family: 'Roboto Slab', serif;
+  color: #121212;
+}
+
+.current {
+  opacity: 0.5;
+  font-size: 0.813rem;
+  margin-bottom: 0.438rem;
+}
+
+.chapter {
+  font-size: 1rem;
+  letter-spacing: -0.4px;
+  margin-bottom: 1.438rem;
+}
+
+.update {
+  width: 11.5rem;
+  padding: 0.5rem;
+  border-radius: 3px;
+  border: none;
+  outline: none;
+  background-color: var(--azure);
+  font-size: 0.813rem;
+  letter-spacing: 0.5px;
+  text-align: center;
+  color: #fff;
+}

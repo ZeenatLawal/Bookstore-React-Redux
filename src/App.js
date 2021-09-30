@@ -1,5 +1,5 @@
-import './App.css';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import './styles/App.css';
+import { HashRouter as Router, Switch, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Categories from './components/Categories';
 import InputBook from './components/InputBook';
@@ -12,8 +12,11 @@ function App() {
       <Navbar />
       <Switch>
         <Route exact path="/">
-          <BooksList />
-          <InputBook />
+          <div className="container">
+            <BooksList />
+            <div className="line" />
+            <InputBook />
+          </div>
         </Route>
         <Route path="/categories">
           <Categories />
