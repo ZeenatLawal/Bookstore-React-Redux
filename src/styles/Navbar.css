@@ -17,6 +17,7 @@ p {
   background-color: #fff;
   padding: 1.813rem 6.25rem;
   justify-content: space-between;
+  border-bottom: solid 1px var(--white);
 }
 
 .navbar {
