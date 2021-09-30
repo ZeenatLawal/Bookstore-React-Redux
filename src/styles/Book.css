@@ -1,0 +1,61 @@
+.card {
+  width: 94%;
+  height: 6rem;
+  margin-bottom: 1rem;
+  padding: 2rem;
+  border-radius: 4px;
+  border: solid 1px var(--white);
+  background-color: #fff;
+  align-items: center;
+}
+
+.flex {
+  display: flex;
+}
+
+.book {
+  width: 28rem;
+}
+
+.bookCategory {
+  opacity: 0.5;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.875rem;
+  font-weight: bold;
+  color: var(--black-two);
+}
+
+.bookTitle {
+  font-family: 'Roboto Slab', serif;
+  font-size: 1.375rem;
+  font-weight: bold;
+  letter-spacing: -0.2px;
+  color: var(--black-two);
+  margin-bottom: 2rem;
+}
+
+.actions li {
+  padding: 0 1rem 0;
+  border-right: solid 1px var(--white);
+  font-family: 'Roboto Slab', serif;
+  font-size: 0.875rem;
+  color: #4386bf;
+}
+
+.rmBtn{
+  background-color: white;
+  border: none;
+  outline: none;
+  font-family: 'Roboto Slab', serif;
+  color: #4386bf;
+  font-size: 0.875rem;
+  font-weight: 400;
+}
+
+.actions li:last-child {
+  border-right: none;
+}
+
+.actions li:first-child {
+  padding-left: 0;
+}
