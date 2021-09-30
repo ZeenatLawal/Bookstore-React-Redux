@@ -12,8 +12,11 @@ function App() {
       <Navbar />
       <Switch>
         <Route exact path="/">
-          <BooksList />
-          <InputBook />
+          <div className="container">
+            <BooksList />
+            <div className="line" />
+            <InputBook />
+          </div>
         </Route>
         <Route path="/categories">
           <Categories />

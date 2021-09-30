@@ -27,20 +27,12 @@ p {
   padding-right: 2.938rem;
   font-size: 1.875rem;
   font-weight: bold;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
-  letter-spacing: normal;
   color: var(--azure);
 }
 
 .nav li {
   padding-right: 2.563rem;
   font-size: 0.813rem;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
   letter-spacing: 1.9px;
 }
 

@@ -1,0 +1,43 @@
+.form-title {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #888;
+  margin: 1.813rem 32.75rem 1.188rem 0;
+}
+
+input {
+  height: 2.813rem;
+  padding: 0.2rem 0 0.2rem 1rem;
+  margin-right: 2.125rem;
+  border-radius: 4px;
+  border: solid 1px var(--white);
+  outline: none;
+  background-color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+  color: var(--pinkish-grey);
+}
+
+.title {
+  width: 30rem;
+}
+
+.category {
+  width: 17rem;
+}
+
+.submitBtn {
+  width: 11.5rem;
+  padding: 1.04rem;
+  border-radius: 3px;
+  border: none;
+  outline: none;
+  background-color: var(--azure);
+  font-family: 'Roboto Slab', serif;
+  font-size: 0.813rem;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+  text-align: center;
+  color: #fff;
+}
