@@ -1,38 +1,28 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
+import { MdAccountCircle } from 'react-icons/md';
+import './Navbar.css';
 
-const Navbar = () => {
-  const links = [
-    {
-      id: 1,
-      path: '/',
-      text: 'Books',
-    },
-    {
-      id: 2,
-      path: '/categories',
-      text: 'Categories',
-    },
-  ];
-
-  return (
-    <div className="navbar">
-      <h1>Bookstore</h1>
-      <nav className="navBar">
-        <ul>
-          {links.map((link) => (
-            <li key={link.id}>
-              <NavLink
-                to={link.path}
-                exact
-              >
-                {link.text}
-              </NavLink>
-            </li>
-          ))}
+const Navbar = () => (
+  <div className="nav-container flex">
+    <div className="navbar flex">
+      <p>Bookstore CMS</p>
+      <nav>
+        <ul className="nav flex">
+          <li>
+            <NavLink to="/" exact>
+              BOOKS
+            </NavLink>
+          </li>
+          <li className="categories">
+            <NavLink to="/categories" exact>
+              CATEGORIES
+            </NavLink>
+          </li>
         </ul>
       </nav>
     </div>
-  );
-};
+    <span><MdAccountCircle className="account" /></span>
+  </div>
+);
 export default Navbar;

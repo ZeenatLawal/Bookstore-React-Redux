@@ -1,0 +1,54 @@
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+  color: var(--black-two);;
+}
+
+p {
+  padding: 0;
+  margin: 0;
+}
+
+.nav-container {
+  background-color: #fff;
+  padding: 1.813rem 6.25rem;
+  justify-content: space-between;
+}
+
+.navbar {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.navbar p {
+  padding-right: 2.938rem;
+  font-size: 1.875rem;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: var(--azure);
+}
+
+.nav li {
+  padding-right: 2.563rem;
+  font-size: 0.813rem;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 1.9px;
+}
+
+.categories {
+  opacity: 0.5;
+}
+
+.account {
+  font-size: 2rem;
+  color: var(--azure);
+}
