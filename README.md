@@ -1,6 +1,8 @@
 # Bookstore-React-Redux
 > A basic website that allows you to display a list of books, add a book and remove a selected book.
 
+
+![screenshot](./bookstore.png)
 ## Built With
 
 - ReactJS
@@ -8,7 +10,7 @@
 
 ## Live demo
 
-TBA
+[Bookstore](https://zeenatlawal.github.io/Bookstore-React-Redux/)
 
 ## Getting Started
 
