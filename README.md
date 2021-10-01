@@ -11,6 +11,7 @@
 ## Live demo
 
 [Bookstore](https://zeenatlawal.github.io/Bookstore-React-Redux/)
+[Bookstore Netlify](https://bookstore-zee.netlify.app/#/)
 
 ## Getting Started
 
